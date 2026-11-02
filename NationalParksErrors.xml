@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<NationalPark>
+<NationalPark xmlns="https://tiyalath.github.io/CSE445-Assignment4"
+               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:schemaLocation="https://tiyalath.github.io/CSE445-Assignment4 https://tiyalath.github.io/CSE445-Assignment4/NationalParks.xsd">
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
     <Phone>928-638-7496</Phone>
@@ -26,6 +28,7 @@
   </NationalPark>
   <NationalPark Rating="4.9">
     <Name>Yosemite</Name>
+    <Phone>209-372-0200</Phone>
     <Address NearestAirport="Fresno Yosemite">
       <Number>9035</Number>
       <Street>Village Drive</Street>
@@ -36,7 +39,6 @@
   </NationalPark>
   <NationalPark Rating="4.8">
     <Name>Zion</Name>
-    <Name>Another Name</Name>
     <Phone>435-772-3256</Phone>
     <Phone>435-772-3264</Phone>
     <Address NearestAirport="St George">
@@ -49,7 +51,6 @@
   </NationalPark>
   <NationalPark>
     <Name>Bryce Canyon</Name>
-    <Phone>435-834-5322</Phone>
     <Address NearestAirport="Cedar City">
       <Number>1</Number>
       <Street>Park Road</Street>
@@ -71,13 +72,14 @@
   </NationalPark>
   <NationalPark>
     <Name>Acadia</Name>
+    <Name>Acadia National Park</Name>
     <Phone>207-288-3338</Phone>
     <Address NearestAirport="Hancock County">
       <Number>25</Number>
       <Street>Visitor Center Road</Street>
       <City>Bar Harbor</City>
       <State>ME</State>
-      <Zip>4609</Zip>
+      <Zip>04609</Zip>
     </Address>
   </NationalPark>
   <NationalPark Rating="4.8">
@@ -122,6 +124,6 @@
       <City>Twentynine Palms</City>
       <State>CA</State>
       <Zip>92277</Zip>
-
+    
   </NationalPark>
 </NationalPark>
